@@ -1,0 +1,23 @@
+if ( head.next == null ) {
+    return null ;
+}
+// size
+int size = 0 ;
+ListNode curr = head ;
+while ( curr ! = null ) {
+    curr = curr.next ;
+    size ++ ;
+}
+if ( n == size ) {
+}
+    return head.next ;
+}
+int
+ListNode prev = head ;
+int i = 1 ;
+while ( i < indexToSearch ) {
+    prev prev.next ;
+    i ++ ;
+    indexToSearch = size - n ;
+prev.next = prev.next.next ;
+return head ;

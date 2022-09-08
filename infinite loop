@@ -1,0 +1,11 @@
+import java.util.*;
+class Scratch {
+    public static void main(String[] args) {
+        int i =100;
+        do{
+            System.out.println("This is an infinite loop");
+            i++;
+        }while(true);
+
+    }
+    }

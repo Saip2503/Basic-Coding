@@ -1,0 +1,30 @@
+import java.util.*;
+class Patterns {
+    public static void main(String args[]) {
+        int n =5;
+        int i, j;
+        for(i=1; i<=n; i++) {
+            //spaces
+            for(j=1; j<=n-i; j++) {
+                System.out.print(" ");
+            }
+            //stars
+            if(j == 1 || j == n) {
+            for (j=1; j<=n; j++) {
+                    System.out.print("*");
+                }
+            }else{
+                for (j=1; j<=n; j++) {
+                    if (j == n || j == 1) {
+                        System.out.print("*");
+                    }else{
+                        System.out.print(" ");
+                    }
+                }
+            }
+            System.out.println();
+        }
+
+    }
+
+}

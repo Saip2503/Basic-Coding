@@ -1,0 +1,16 @@
+import java.util.*;
+class Scratch {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int n = sc.nextInt();
+        while (x != n) {
+            if (x>n) {
+                x = x-n;
+            }else {
+                n = n-x;
+            }
+        }
+        System.out.println("GCD is :"+n);
+    }
+}

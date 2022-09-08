@@ -1,0 +1,9 @@
+import java.util.*;
+class Scratch {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int r = sc.nextInt();
+        double Circumference = 2*3.14*r;
+        System.out.println(Circumference);
+    }
+}
